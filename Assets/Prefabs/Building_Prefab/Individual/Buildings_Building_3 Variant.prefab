@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4454379334132888724
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.616768
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.8906894
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -33.641636
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+        type: 3}
+      propertyPath: m_Name
+      value: Buildings_Building_3 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd5c92acf890a13489f5e5c5dce1ec33, type: 3}
+--- !u!1 &3535408955056048581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bd5c92acf890a13489f5e5c5dce1ec33,
+    type: 3}
+  m_PrefabInstance: {fileID: 4454379334132888724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1001720621918239851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3535408955056048581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.124897, y: 0.6917963, z: 1.1165352}
+  m_Center: {x: 0.15124321, y: -2.9267836, z: 0.027376175}
+--- !u!136 &1494562607058810165
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3535408955056048581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.57
+  m_Height: 1.7324715
+  m_Direction: 1
+  m_Center: {x: 0.017951965, y: -4.024453, z: 0.07873547}
+--- !u!65 &6312891762180568393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3535408955056048581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0558014, y: 0.7889478, z: 1.6306953}
+  m_Center: {x: 0.004600525, y: -1.7917997, z: -0.14004707}
+--- !u!65 &8521939804457961397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3535408955056048581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1636276, y: 1.4043751, z: 2.1562767}
+  m_Center: {x: 0.014080048, y: -0.6741996, z: -0.051122665}
+--- !u!65 &8823968734045968263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3535408955056048581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4, y: 0.40521336, z: 1.4455948}
+  m_Center: {x: 0.10564041, y: -2.4056063, z: -0.13715363}
+--- !u!114 &-4146882396372734359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3535408955056048581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616875832e0dac74a80b926bbe1201e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deSpawnOnCollision: 0
+  RespawnTimer: 4
+  _resetVelocity: 1
+  _slowDown: 0
+  _slowDownTime: 1
+  _slowDownSpeedMultiplier: 0.5
+  _pushBack: 1
+  _pushBackForce: 10
+  _pushDown: 0
+  _pushDownForce: 10
+  _slowDownHorizontalControls: 0
+  _slowDownHorizontalControlsTime: 1
+  _slowDownHorizontalControlsMultiplier: 0.5
+  _slowDownVerticalControls: 0
+  _slowDownVerticalControlsTime: 1
+  _slowDownVerticalControlsMultiplier: 0.5
+  _reverseControls: 0
+  _reverseControlsTime: 1
+  _disableControls: 0
+  _disableControlsTime: 1
+  _removeShieldCharge: 0
+  _removeShieldChargeAmount: 1
+  _soundToBePlayed: {fileID: 8300000, guid: d83d6cf31a0120e45b3dc50fca47940a, type: 3}
+  _soundVolume: 1
